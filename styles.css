@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Smokum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Smokum&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+    padding: 80px 0px;
+    background-color: lightgray;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    border: 5px solid #081523;
+}
+
+img {
+    width: 100px;
+}
+
+.hero, .activities, .guide {
+    width: 720px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 343px;
+    border: 2px solid black;
+    background-image: url('./images/dallas.jpg');
+    
+}
+
+.city-text, .desc-text {
+    color: #FFF;
+    text-shadow: 0 0 8px black;  
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+.city-text {
+    width: 520px;
+    font-family: 'Smokum', sans-serif;
+    font-size: 65px;
+    background-color: rgba(11, 39, 61, 0.4);
+    border: 3px double #FFF;
+}
+
+.desc-text {
+    width: 450px;
+    background-color: #081523;
+    border: 2px solid #FFF;
+}
+
+.activities {
+    width: 100%;
+    height: 378px;
+    background-color: #c1dad2;
+    padding: 15px 0px;
+    margin: 0;
+}
+
+.bottom-margin {
+    margin-bottom: 30px;
+}
+
+.activity-title {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.activity-text {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px 0 10px;
+}
+
+li {
+    width: 198px;
+    height: 226px;
+    list-style: none;
+}
+
+.guide {
+    height: 394px;
+    background-color: #FFF;
+    padding-top: 15px;
+}
+
+.activity-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px inset #081523;
+}
